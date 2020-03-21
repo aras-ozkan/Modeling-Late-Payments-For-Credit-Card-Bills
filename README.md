@@ -1,7 +1,7 @@
 # Modeling-Late-Payments-For-Credit-Card-Bills
 
 In this project my task was to predict 3 different targets. They are all binary classification and have the same data fields. 
-      Data Preprocess
+Data Preprocess:
 The given data had many NaN values. I had to remove columns that have more than 40% NaN values with eraseUnwanted(data) method. After this I had to fill remaining NaN values in data. For number values that are missing, I used filling with mean. For String values, I used filling with most frequent. In order to have same features in test and train data, I added test data to train data as new data points and sent the joint data points through the same preprocess.
 
       Learners
