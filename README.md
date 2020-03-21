@@ -10,7 +10,7 @@ The given data had many NaN values. I had to remove columns that have more than 
       AUROC
 	I calculated each learners AUROC and score. I also drew the ROC curve for each one. In order to get a meaningful result I used probability of having a prediction value of 1 as AUROC input.
 
-      Results
+
 TARGET 1:
 Processed Data Features: 131
 Random Forest
