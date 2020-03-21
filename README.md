@@ -1,6 +1,6 @@
 # Modeling-Late-Payments-For-Credit-Card-Bills
 
-In this project my task was to predict 3 different targets. They are all binary classification and have the same data fields. 
+In this project my task was to predict 3 different targets. They are all binary classification and have the same data fields. First target corresponds to whether or not the customer will delay his/her credit card bill for 1 day. Second target corresponds to a delay of 30 or more days. Third target corresponds to a delay of 60 or more days. 1 is for delay and 0 is for no delay.
 Data Preprocess:
 The given data had many NaN values. I had to remove columns that have more than 40% NaN values with eraseUnwanted(data) method. After this I had to fill remaining NaN values in data. For number values that are missing, I used filling with mean. For String values, I used filling with most frequent. In order to have same features in test and train data, I added test data to train data as new data points and sent the joint data points through the same preprocess.
 
